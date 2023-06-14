@@ -1,0 +1,13 @@
+{
+  "name": "mocks",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "mockserver -p 3900 -m './mock-files'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mockserver": "^3.1.1"
+  }
+}

@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+Response-Delay: 5000
+
+[
+  {
+    "url": "http://localhost:3002/remoteEntry.js",
+    "scope": "plugin_a",
+    "module": "./PluginA"
+  },
+  {
+    "url": "http://localhost:3003/remoteEntry.js",
+    "scope": "plugin_b",
+    "module": "./PluginB"
+  }
+]
